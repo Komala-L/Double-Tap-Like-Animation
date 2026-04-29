@@ -1,53 +1,70 @@
 # ❤️ Double Tap Like Animation
 
-## 📌 Description
-This project replicates the "double tap to like" feature commonly seen in social media applications.
+## Overview ✨
 
-When the user double-clicks on the image, a heart icon appears at the center with a smooth animation and fades out automatically after a short duration.
+This project is a lightweight front-end demo built with HTML, CSS, and JavaScript. It presents a centered image card with a heart animation that appears on double-click.
 
----
+## Project Structure 📁
 
-## 🚀 Features
-- Double click (double tap) interaction
-- Heart animation (scale + fade effect)
-- Smooth transitions using CSS
-- Simple and clean UI
+```text
+second_js_project/
+├── .vscode/
+├── index.html
+├── script.js
+├── style.css
+└── README.md
+```
 
----
+## Tech Stack 🛠️
 
-## 🛠️ Tech Stack
-- HTML
-- CSS
-- JavaScript (DOM Manipulation)
+| Technology | Purpose |
+| --- | --- |
+| HTML5 | Page structure |
+| CSS3 | Layout, styling, and animation |
+| JavaScript | Interactive behavior |
+| Remix Icon CDN | Heart icon display |
 
----
+## Key Features 🌟
 
-## 📷 Preview
+- Clean, centered card layout
+- Full image display with rounded corners
+- Double-click heart animation
+- Minimal, responsive, and easy to customize
 
-### Initial State
-![Initial] 
+## How It Works ⚙️
 
-<img width="1454" height="657" alt="Screenshot 2026-04-29 223520" src="https://github.com/user-attachments/assets/55c2a299-e308-48b2-bd82-397efddd3e88" />
+The page loads a single image card in the center of the screen. When the card is double-clicked, the heart icon scales up, turns red, and fades out after a short delay.
+
+## How to Run 🚀
+
+1. Open the project folder in VS Code or any preferred code editor.
+2. Open `index.html` directly in a browser, or use Live Server if available.
+3. Double-click the card to trigger the heart animation.
+
+## Screenshots 📸
 
 
-### After Double Tap
-![After]
-
-<img width="1455" height="637" alt="Screenshot 2026-04-29 223558" src="https://github.com/user-attachments/assets/d6698418-6d1f-4662-af50-9c524deef5c2" />
+### Initial View
 
 
----
+<img width="1454" height="657" alt="Screenshot 2026-04-29 223520" src="https://github.com/user-attachments/assets/1aca8b30-fe9e-4d9a-abb9-0f2edf1474fd" />
 
-## 🎯 Learning Outcomes
-- Handling user events (dblclick)
-- DOM manipulation using JavaScript
-- Working with CSS transitions and transforms
-- Creating interactive UI components
 
----
+### Heart Animation On Double Click
 
-## 📂 Project Structure
-project-folder/
-│── index.html
-│── style.css
-│── script.js
+
+<img width="1455" height="637" alt="Screenshot 2026-04-29 223558" src="https://github.com/user-attachments/assets/b9d98417-1161-41b1-9835-12ea919a1609" />
+
+
+## File Details 🧾
+
+| File | Description |
+| --- | --- |
+| `index.html` | Main page structure and external icon/font links |
+| `style.css` | Card layout, sizing, and animation styling |
+| `script.js` | Double-click interaction and heart animation logic |
+
+## Notes ℹ️
+
+- The project relies on an external image URL and the Remix Icon CDN, so an internet connection is required for those assets to load.
+- You can replace the image URL in `index.html` with any local or remote image.
